@@ -33,7 +33,7 @@ body {
 
 .flowers {
   position: relative;
-  transform: scale(0.7);
+  transform: scale(1.2);
 }
 
 .flower {
@@ -137,8 +137,8 @@ body {
   position: absolute;
   bottom: 0;
   left: 50%;
-  width: 8vmin;
-  height: 11vmin;
+  width: 13vmin;
+  height: 17vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
   background-color: #65e6cc;
   background-image: linear-gradient(to top, #40bbab, #a7ffee);
@@ -156,8 +156,8 @@ body {
   transform: translate(-90%, 0%) rotateY(45deg) rotateX(50deg);
 }
 .flower__leaf--4 {
-  width: 8vmin;
-  height: 8vmin;
+  width: 13vmin;
+  height: 17vmin;
   transform-origin: bottom left;
   border-radius: 4vmin 10vmin 4vmin 4vmin;
   transform: translate(0%, 18%) rotateX(70deg) rotate(-43deg);
@@ -237,8 +237,8 @@ body {
 .flower__light {
   position: absolute;
   bottom: 0vmin;
-  width: 1vmin;
-  height: 1vmin;
+  width: 1.6vmin;
+  height: 1.6vmin;
   background-color: #fffb00;
   border-radius: 50%;
   filter: blur(0.2vmin);
@@ -283,7 +283,7 @@ body {
   --c: #159faa;
   --line-w: 1.5vmin;
   position: absolute;
-  bottom: 12vmin;
+  bottom: 16vmin;
   left: -7vmin;
   display: flex;
   flex-direction: column;
@@ -297,7 +297,7 @@ body {
 }
 .flower__grass--2 {
   left: 2vmin;
-  bottom: 10vmin;
+  bottom: 16vmin;
   transform: scale(0.5) rotate(75deg) rotateX(10deg) rotateY(-200deg);
   opacity: 0.8;
   z-index: 0;
@@ -305,7 +305,7 @@ body {
 }
 .flower__grass--top {
   width: 7vmin;
-  height: 10vmin;
+  height: 14vmin;
   border-top-right-radius: 100%;
   border-right: var(--line-w) solid var(--c);
   transform-origin: bottom center;
@@ -314,14 +314,14 @@ body {
 .flower__grass--bottom {
   margin-top: -2px;
   width: var(--line-w);
-  height: 25vmin;
+  height: 35vmin;
   background-image: linear-gradient(to top, transparent, var(--c));
 }
 .flower__grass__leaf {
   --size: 10vmin;
   position: absolute;
-  width: calc(var(--size) * 2.1);
-  height: var(--size);
+  width: 16vmin;
+  height: 16vmin;
   border-top-left-radius: var(--size);
   border-top-right-radius: var(--size);
   background-image: linear-gradient(to top, transparent, transparent 30%, var(--c));
